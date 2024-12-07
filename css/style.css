@@ -27,12 +27,30 @@ body {
 }
 
 .header {
-  display: flex;
+  display: grid;
   justify-content: space-between;
   padding: 0 8px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-bottom: 1rem;
+  grid-template-columns: 5fr 1fr 1fr;
+}
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .plus-user {
+    width: 100px;
+  }
+  ul li {
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1150px) {
+  .plus-user {
+    width: 100px;
+  }
 }
 
 .header-navbar {
