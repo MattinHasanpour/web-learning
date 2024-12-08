@@ -3,6 +3,7 @@
   grid-template-columns: repeat(4, 300px);
   justify-content: space-around;
 }
+
 @media (max-width: 1550px) {
   .main-content {
     width: 100%;
@@ -15,7 +16,6 @@
   }
 }
 @media (max-width: 950px) {
-  
   .main-content {
     width: 100%;
   }
@@ -27,9 +27,6 @@
   }
 }
 @media (max-width: 800px) {
-  .banner {
-    background-image: none;
-  }
   .main-content {
     width: 100%;
   }
@@ -41,8 +38,15 @@
   }
 }
 @media (max-width: 650px) {
-  .banner {
-    background-image: none;
+  .type-site {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .title-wbe {
+    justify-content: center;
+    align-items: center;
   }
   .main-content {
     width: 100%;
@@ -62,9 +66,8 @@
   border: 1px solid #ebebeb;
   border-radius: 15px;
   box-shadow: rgba(94, 129, 209, 0.16) 0px 8px 24px;
-  width: 270px;
-  height: 300px;
-  overflow: auto;
+  width: 300px;
+  height: 450px;
 }
 .image-cursses {
   margin-top: 10px;
@@ -76,16 +79,19 @@
 }
 .daneshjo {
   color: #5e81d1;
-
+  padding-right: -90%;
   box-sizing: border-box;
-  width: 80px;
+  width: 180px;
+  height: 20px;
   font-size: 13px;
   font-weight: 700;
 }
 .color-daneshjo {
   background-color: #cdd8f3;
-  border-top-left-radius: 55px;
-  border-bottom-left-radius: 55px;
+  margin-right: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding-right: -20px;
 }
 .amozesh {
   align-items: baseline;
@@ -94,13 +100,13 @@
 .amozesh span {
   color: #7c3aed;
   font-size: 13px;
+  padding-right: -20px;
   font-weight: 700;
 }
 hr {
   margin: 20px;
   border: none;
-  border-top: 2px dashed #7c3aed;
-  opacity: 0.5;
+  border-top: 2px dashed #7c3aed8c;
 }
 .div-button {
   display: flex;
@@ -114,19 +120,66 @@ hr {
   background-color: #7c3aed;
   padding: 5px 10px;
   border-radius: 15px;
-  margin: 0 10px;
+  margin: 5px 10px;
 }
 .play-cursses {
   align-items: baseline;
   border: none;
   margin-right: 25px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #7c3aed;
   font-weight: 700;
   background-color: #fff;
   margin-left: 15px;
 }
 .play-svg {
-  margin-top: -20px;
+  margin-top: -24px;
+  padding: 0px 10px;
   margin-right: 90px;
+}
+.svg {
+  padding-right: -20px;
+}
+.peshraphteh {
+  margin: 10px 0px;
+}
+.peshraphteh span {
+  background-color: #d15e5e;
+  padding: 2px 5px;
+  color: #fff;
+  margin: 10px 0px 5px 0px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.mogademate {
+  padding-right: 10px 0;
+}
+.mogademate span {
+  background-color: #fbc12db2;
+  padding: 2px 5px;
+  color: #000;
+  margin: 10px 0px 5px 0px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.botoshap {
+  background-color: rgb(243, 232, 255);
+  padding: 10px 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  margin: 15px;
+  border-radius: 10px;
+}
+.plus-user {
+  background-color: rgb(243, 232, 255);
+  padding: 10px 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  margin: 15px;
+  border-radius: 10px;
 }
