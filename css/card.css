@@ -1,0 +1,132 @@
+.card-perent {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: space-around;
+}
+@media (max-width: 1550px) {
+  .main-content {
+    width: 100%;
+  }
+  .sidebar-content {
+    display: none;
+  }
+  .card-perent {
+    grid-template-columns: repeat(3, 300px);
+  }
+}
+@media (max-width: 950px) {
+  
+  .main-content {
+    width: 100%;
+  }
+  .sidebar-content {
+    display: none;
+  }
+  .card-perent {
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+@media (max-width: 800px) {
+  .banner {
+    background-image: none;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .sidebar-content {
+    display: none;
+  }
+  .card-perent {
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+@media (max-width: 650px) {
+  .banner {
+    background-image: none;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .sidebar-content {
+    display: none;
+  }
+  .card-perent {
+    grid-template-columns: repeat(1, 300px);
+  }
+}
+.card {
+  margin: 1rem;
+  background-color: #fff;
+  display: grid;
+  direction: rtl;
+  border: 1px solid #ebebeb;
+  border-radius: 15px;
+  box-shadow: rgba(94, 129, 209, 0.16) 0px 8px 24px;
+  width: 270px;
+  height: 300px;
+  overflow: auto;
+}
+.image-cursses {
+  margin-top: 10px;
+}
+.font-title {
+  align-items: baseline;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.daneshjo {
+  color: #5e81d1;
+
+  box-sizing: border-box;
+  width: 80px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.color-daneshjo {
+  background-color: #cdd8f3;
+  border-top-left-radius: 55px;
+  border-bottom-left-radius: 55px;
+}
+.amozesh {
+  align-items: baseline;
+  margin: 10px 0;
+}
+.amozesh span {
+  color: #7c3aed;
+  font-size: 13px;
+  font-weight: 700;
+}
+hr {
+  margin: 20px;
+  border: none;
+  border-top: 2px dashed #7c3aed;
+  opacity: 0.5;
+}
+.div-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.button-plus {
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #7c3aed;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 0 10px;
+}
+.play-cursses {
+  align-items: baseline;
+  border: none;
+  margin-right: 25px;
+  font-size: 1.2rem;
+  color: #7c3aed;
+  font-weight: 700;
+  background-color: #fff;
+  margin-left: 15px;
+}
+.play-svg {
+  margin-top: -20px;
+  margin-right: 90px;
+}
