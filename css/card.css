@@ -1,5 +1,6 @@
 .card-perent {
   display: grid;
+  direction: rtl;
   grid-template-columns: repeat(4, 300px);
   justify-content: space-around;
 }
