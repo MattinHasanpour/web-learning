@@ -87,7 +87,7 @@ button {
 #login:hover {
   background-color: #f0eafa;
   color: #7c3aed;
-  border:  2px solid #7c3aed;
+  border: 2px solid #7c3aed;
   transition: all ease 0.2s;
   padding: 5px;
 }
@@ -113,6 +113,10 @@ button {
   display: grid;
   justify-content: end;
   cursor: pointer;
+}
+.telegram:hover {
+  background-color: #6913fd;
+  transition: all ease 0.2s;
 }
 .registration-a {
   font-size: 1.1rem;
