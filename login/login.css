@@ -67,6 +67,7 @@ button {
   text-align: center;
   border: none;
   font-size: 1.1rem;
+  transition: all ease .5s;
 }
 .input:focus {
   color: #7c3aed;
@@ -83,12 +84,13 @@ button {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 1rem;
+  transition: all ease .5s;
 }
 #login:hover {
   background-color: #f0eafa;
   color: #7c3aed;
   border: 2px solid #7c3aed;
-  transition: all ease 0.2s;
+
   padding: 5px;
 }
 
@@ -113,10 +115,10 @@ button {
   display: grid;
   justify-content: end;
   cursor: pointer;
+   transition: all ease 1s;
 }
 .telegram:hover {
   background-color: #6913fd;
-  transition: all ease 0.2s;
 }
 .registration-a {
   font-size: 1.1rem;

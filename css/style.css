@@ -92,7 +92,7 @@ body {
   top: 2px;
   right: 2px;
   border-radius: 5px;
-  transition: all ease 0.2s;
+  transition: all ease 1s;
 }
 
 .div-body {
@@ -161,11 +161,11 @@ nav ul li {
   display: grid;
   justify-content: end;
   cursor: pointer;
+  transition: all ease 0.2s;
 }
 
 .telegram:hover {
   background-color: #6913fd;
-  transition: all ease 0.2s;
 }
 .type-site .title-wbe {
   font-weight: bolder;
